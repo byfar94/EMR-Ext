@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "date-fns": "^2.29.3"
+  },
+  "name": "emr-ext",
+  "description": "EMR Chrome Extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "2.8.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byfar94/EMR-Ext.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byfar94/EMR-Ext/issues"
+  },
+  "homepage": "https://github.com/byfar94/EMR-Ext#readme"
+}

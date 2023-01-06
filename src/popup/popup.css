@@ -1,0 +1,20 @@
+.doi-contain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.25rem;
+  min-width: 7.5rem;
+  border: 1px black solid;
+  margin-bottom: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.dos-contain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.25rem;
+  min-width: 7.5rem;
+  border: 1px black solid;
+  border-radius: 0.5rem;
+}

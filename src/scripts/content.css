@@ -1,0 +1,20 @@
+.alert-contain {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  border-radius: 1rem;
+  display: none;
+}
+
+.alert-info {
+  font-size: 1.25rem;
+  background-color: red;
+  color: white;
+  margin: 0.25rem;
+}
+
+.show {
+  display: block;
+}
