@@ -124,7 +124,6 @@ function countSpan() {
       span.innerText.toLowerCase().includes("right") == true ||
       span.innerText.includes(" R ") == true
     ) {
-      console.log(span.innerText.includes("right"));
       rCounter.count += 1;
       if (lCounter.count > 0 && lCounter.count >= rCounter.count) {
         span.style.color = "red";
@@ -147,9 +146,7 @@ function countSpan() {
 function countObjBoxes() {
   let objBoxes = document.querySelectorAll(".sc-jtRlXQ.eFAlaQ.pre-p");
   objBoxes.forEach(function (box) {
-    console.log(box.innerText);
     if (box.id.includes("right") == true && box.innerText != "") {
-      console.log(box.id.includes("right"));
       rCounter.count += 1;
       if (lCounter.count > 0 && lCounter.count >= rCounter.count) {
         box.style.color = "red";
